@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--    Copyright 2014 gokoururi
+        This work is free. You can redistribute it and/or modify it under the
+        terms of the Do What The Fuck You Want To Public License, Version 2,
+        as published by Sam Hocevar. See the COPYING file for more details. -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome Home</title>
+
+        <link rel="stylesheet" style="text/css" href="general.css" />
+
+        <!-- To change theme, replace its name in following 4 lines  -->
+        <link rel="icon"                           href="themes/ruri-dark/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon" />
+        <link rel="stylesheet" style="text/css"    href="themes/ruri-dark/colors.css" />
+        <script type="text/javascript">var mascotPath = "themes/ruri-dark/images/mascots/";</script>
+        <script type="text/javascript"              src="themes/ruri-dark/mascots.js"></script>
+
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/mascots-control.js"></script>
+    </head>
+    <body>
+        <main> <!-- Random mascot image will be set as background-image by javascript -->
+            <header>
+                <h1>     Welcome<span class="name-highlight">-ho!     </span></h1>
+                <p class="subtitle"></p>
+            </header>
+            <section class="searchContainer">
+                <form class="searchForm" method="get" action="https://google.com/search">
+                    <input class="searchBar search_google" type="text" name="q" placeholder="Google" autofocus="autofocus" search_/>
+                </form>
+                <form class="searchForm" method="get" action="https://youtube.com/results">
+                    <input class="searchBar search_youtube" type="text" name="search_query" placeholder="Youtube" search_/>
+                </form>
+                <form class="searchForm" method="get" action="https://en.wikipedia.org/w/index.php">
+                    <input class="searchBar search_wikipedia" type="text" name="search" placeholder="Wikipedia (en)" search_/>
+                </form>
+            </section>
+            <nav>
+
+                <ul class="columnList">
+                    <li class="column column_purple">
+                        <a>4chan</a>
+                        <ul>
+                            <li><a href="https://catalog.neet.tv/v/">/v/ - Video Games</a></li>
+                            <li><a href="https://catalog.neet.tv/vg/">/vg/ - Video Game Generals</a></li>
+							<li><a href="https://catalog.neet.tv/g/">/g/ - Technology</a></li>
+							<li><a href="https://catalog.neet.tv/a/">/a/ - Anime & Manga</a></li>
+							<li><a href="https://catalog.neet.tv">Catalog</a></li>
+                        </ul>
+                    </li>
+                    <li class="column column_green">
+                        <a>Shop</a>
+                        <ul>
+                            <li><a href="https://www.amazon.com.mx/">Amazon Mx</a></li>
+                            <li><a href="https://www.amazon.com">Amazon</a></li>
+                            <li><a href="https://www.mercadolibre.com.mx/">Mercadolibre</a></li>
+							<li><a href="https://www.banorte.com/wps/portal/banorte/Home/inicio/!ut/p/a1/04_Sj9CPykssy0xPLMnMz0vMAfGjzOLdjQwtPIydDbz9A0KNDRyd_UOdA0xdjELMzIEKIoEKDHAARwNC-sP1o8BKnN0dPUzMfQwM_E3cjQwcLfy8TIJNLY0MPM2gCvBYUZAbYZDpqKgIALNrqj4!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/">Banorte</a></li>
+                        </ul>
+                    </li>
+                    <li class="column column_pink">
+                        <a>Misc</a>
+                        <ul>
+                            <li><a href="https://www.youtube.com/">Youtube</a></li>
+							<li><a href="http://www.siliconera.com/">Siliconera</a></li>
+                            <li><a href="https://www.facebook.com/">Facebook</a></li>
+                            <li><a href="https://www.google.com/intl/es/gmail/about/">Gmail</a></li>
+                            <li><a href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1503234154&rver=6.7.6643.0&wp=MBI_SSL_SHARED&wreply=https:%2F%2Fmail.live.com%2Fdefault.aspx&lc=2058&id=64855&mkt=es-mx&cbcxt=mai">Hotmail</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </main>
+    </body>
+</html>
